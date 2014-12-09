@@ -1,0 +1,261 @@
+/*
+  =-=-=-=
+    Global Styles
+  =-=-=-=
+*/
+
+/*
+  =-=-=-=
+    Helper Classes
+  =-=-=-=
+*/
+ 
+  /* =-=-=-= Responsive Maps =-=-=-= */
+ 
+  .mapCont {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+  }
+  .mapCont iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+ 
+  /* =-=-=-= Responsive Videos =-=-=-= */
+ 
+  .videoCont {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+  .videoCont iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ 
+  /* =-=-=-= Font Helpers =-=-=-= */
+  
+  .smallness {
+    font-size: 10px;
+  }
+  .boldness {
+    font-weight: bold;
+  }
+  .italicness {
+    font-style: italic;
+  }
+  .shadowness {
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
+  }
+  .toUpper {
+    text-transform: uppercase;
+  }
+  .toLower {
+    text-transform: lowercase;
+  }
+  .toCapitalize {
+    text-transform: capitalize;
+  }
+  .highlightPrimary {
+    color: #36a12d;
+  }
+  .highlightSecondary {
+    color: #999;
+  }
+  
+  /* =-=-=-= Alignment Helpers =-=-=-= */
+  
+  .alignLeft {
+    text-align: left;
+  }
+  .alignCenter {
+    text-align: center;
+  }
+  .alignRight {
+    text-align: right;
+  }
+  .alignMiddle {
+    vertical-align: middle;
+  }
+  .floatLeft {
+    float: left;
+  }
+  .floatRight {
+    float: right;
+  }
+  .floatNone {
+    float: none;
+  }
+  
+  /* =-=-=-= Custom Helpers =-=-=-= */
+  
+  .reqChar {
+    color: #f00;
+  }
+  .noMarPad {
+    margin: 0;
+    padding: 0;
+  }
+  .noMar {
+    margin: 0;
+  }
+  .noPad {
+    padding: 0;
+  }
+  .wrapCont {
+    background: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .boxShadow {
+    box-shadow: 2px 0 10px rgba(0,0,0,0.25);
+  }
+  .imgResponsive{
+    max-width: 100%;
+  }
+  .greenify {
+    background: #4bce40;
+    text-color: #fff;
+  }
+  .divCont{
+    position: relative;
+  }
+
+/*
+  =-=-=-=
+    Scaffolding
+  =-=-=-=
+*/
+
+  /* =-=-=-=  Header =-=-=-= */
+  
+  #headerInsideCont {
+    margin-bottom: 20px;
+  }
+  #headerInsideCont .loggedCont {
+    text-align: right;
+    font-size: 12px;
+    padding: 10px 5px 5px 0;
+  }
+  #headerInsideCont .loggedCont span {
+    color: #aaa;
+  }
+  #headerInsideCont #logo {
+    width: 100%;
+    display: table;
+  }
+  #headerInsideCont #logo a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 52px;
+  }
+  
+  /* =-=-=-= SubCont =-=-=-= */
+  
+  #subInsideCont {
+    padding-top: 0;
+  }
+  
+  /* =-=-=-=  Footer =-=-=-= */
+  
+  #footerCont{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+  }
+
+/*
+  =-=-=-=
+    Bootstrap Overwrite Styles
+  =-=-=-=
+*/
+
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    font-family: 'Shanti', sans-serif;
+    margin-bottom: 20px;
+  }
+  .navbar {
+    margin-bottom: 0;
+  }
+  .table {
+    margin-bottom: 0;
+  }
+  .table > thead > tr > th, 
+  .table > tbody > tr > th, 
+  .table > tfoot > tr > th, 
+  .table > thead > tr > td, 
+  .table > tbody > tr > td, 
+  .table > tfoot > tr > td {
+    vertical-align: middle;
+  }
+  .table tbody tr th:nth-of-type(1),
+  .table tbody tr td:nth-of-type(1),
+  .table tbody tr th:nth-of-type(2),
+  .table tbody tr td:nth-of-type(2) {
+    width: 50px;
+    text-align: center;
+  }
+  .table tbody tr th:last-child{
+    width: 145px;
+  }
+
+/*
+  =-=-=-=
+    Page Specific Styles
+  =-=-=-=
+*/
+
+  /* =-=-=-= Login and Logout Pages =-=-=-= */
+
+  #headerCont{
+    text-align: center;
+    padding: 50px 0;
+  }
+  #subCont {
+    padding-top: 50px;
+  }
+  .fieldIcon {
+    background: #4bce40;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
+  }
+  .input-group {
+    margin-bottom: 15px;
+  }
+  .notificationCont{
+    border-radius: 0;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 15px;
+  }
+
+/*
+  =-=-=-=
+    Responsive Styles
+  =-=-=-=
+*/
+
+@media (max-width: 767px) { 
+  
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
